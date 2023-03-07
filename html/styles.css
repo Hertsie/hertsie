@@ -1,0 +1,56 @@
+body {
+    font-family:tahoma;}
+
+p.ex1 {
+    margin-left:120px;}
+p.colorheader {
+    background-color: #8BAFD9; width:579px;}
+p.headergradient {
+    width:665px; background-color: #0A246A; /* For browsers that do not support gradients */background-image: linear-gradient(to right, #0A246A , #A6CAF0);}
+
+ul.listborder {border-style: solid;border-width:1px;width:623px;
+}
+
+section.post {border-style:solid;
+              border-width:1px;
+              padding-left:9px; width:654px;}
+
+section.ex1 {
+    margin-left:120px;}
+
+section.ex2 {
+    margin-left:505px;}
+
+table {border-style:solid;
+       border-width: 1px;}
+
+th, td {border-style: solid;
+        border-width:1px;
+        text-align:left;
+        padding: 9px;}
+
+.nav {font-size:20px;
+   text-align:right;
+max-width:100%;
+    overflow-x: hidden;
+}
+
+a:link {
+    color:black;
+    text-decoration: none;
+}
+
+a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:black;
+    text-decoration: underline;
+}
+
+a:active {
+    color:black;
+    text-decoration: none;
+}

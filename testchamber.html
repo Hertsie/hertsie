@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Alex Hertz's blog">
+        <meta name="author" content="Alex Hertz">
+        <meta name="keywords" content="blogspot, blog, Alex Hertz, Made in Abyss, Pokemon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hertz's testchamber</title>
+        <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+        <link rel="stylesheet" href="./html/styles.css">
+        <style>
+             /*.tc-header{background-color:orange;
+                       background-image: url('./img/tc/tc_header.png');
+                       background-repeat: no-repeat;
+                       background-attachment: scroll;
+                       background-size:100% 100%;
+                       padding:28px;
+                       text-align:center;
+                       color:white;
+                       max-width:1222px;
+                         max-height: 511px;}   */
+           .tc-header {background-color: white;
+            background-image: url('./img/tc/tc_header.png');
+            display:block;
+            height: auto;
+            padding:28px; 
+            max-width:1222px;
+            object-fit: cover;
+        color:white;
+    text-align:center;}
+            .tc{background-color:black;
+                color:rgb(0, 203, 0);
+                font-size:18px;
+                padding:15px;}
+            .js{background-color:rgb(61, 61, 61);
+                color:rgb(232, 0, 0);
+            width:370px;}
+            .speechbubble{
+                background-image: url('./img/tc/speech_bubble.png');
+                background-repeat: no-repeat;
+                background-size:auto;
+                padding: 15px;
+                background-attachment: local;
+                min-width: 486px;
+                min-height: 194px;
+                width: 486px;
+                height: 194px;
+                color: black;
+            }
+            [lang="en-GB"]::before {
+    content: '(In British English) ';
+}
+        </style>
+        <script>
+            function headercolor(sw) {
+                var hcolor;
+                if (sw == 0) {
+                    hcolor = "white"
+                } if (sw == 1) {
+                    hcolor = "gray"
+                }
+                  if (sw == 2) {
+                    hcolor = "red"
+                }
+                 if (sw == 3) {
+                    hcolor = "green"
+                }
+                 if (sw == 4) {
+                    hcolor = "blue"
+                 }
+                document.getElementById('header').style.color = hcolor;
+                }
+            </script>
+            <script>
+                function tcbackgroundcolor(sw) {
+                    var tcbcolor;
+                    var tctcolor;
+                    if (sw == 0) {
+                        tcbcolor = "black"
+                        tctcolor = "rgb(0, 203, 0)"
+                    }
+                    if (sw == 1) {
+                        tcbcolor = "gray"
+                        tctcolor = "rgb(232, 0, 0)";
+                    }
+                    if (sw == 2) {
+                        tcbcolor = "#104080"
+                        tctcolor = "white"
+                    }
+                document.getElementById("tc").style.color = tctcolor;
+                document.getElementById("tc").style.backgroundColor = tcbcolor;
+                }
+            </script>
+    </head>
+
+    <body>
+        <!-- navigation -->
+        <nav class="nav">
+            <a href="./blog.html">#blog</a> |
+            <a href="./index.html">#homepage</a> |
+            <a href="./testchamber.html">#testing chamber</a> |
+            <p class="overflow-hidden max-w-full whitespace-nowrap opacity-90">========================================================================================================================================================================================================================================================================================================================================================================================================================================================================</p>
+          </nav>
+
+
+        <!-- the title and userpic -->
+        <h4>Beckermann's homepage</h4>
+        <img src="./img/Anime_Reg_Square.png" title="reg" alt="userpic" style="width:100px;height:100px;float:left;">
+
+        <!--basic information-->
+     <section class="ex1">
+        <p> male <span style="margin-left:350px"> <a href="./blog.html"> blog </a> </span> <br> 20 y.o <span style="margin-left:341px"> <a href="https://www.steamcommunity.com/id/AlsoKnownAsDerp/" target="_blank"> steam account </a> </span> <br> Lviv, Ukraine <span style="margin-left:295px"> <a href="./index.html"> homepage </a> </span> <br> 0.1% coder <span style="margin-left:301px"> <a href="https://www.youtube.com/playlist?list=PLMalf-xwhiL5Meao2T15xPKe595TxfBKE" target="_blank">youtube music playlist</a> </span> <br> <q>just a friendly guy</q> <span style="margin-left:243px"> <a href="#mygoal"> about my goals </a> </span> </p>
+        <p><b>mood:</b> in learning</p>
+        </section> 
+
+
+    <header>
+    <h1 id="header" class="tc-header">Welcome to the /testing chamber</h1>
+    </header>
+    <div class="tc" id="tc">
+
+
+<div class="js">
+<p>
+    <button type="button" onclick="headercolor(0)">go white</button>
+    <button type="button" onclick="headercolor(1)">go gray</button>
+    <button type="button" onclick="headercolor(2)">go red</button>
+    <button type="button" onclick="headercolor(3)">go green</button>
+    <button type="button" onclick="headercolor(4)">go blue</button>
+</p>
+</div>
+
+<div class="js">
+    <p>
+        <button type="button" onclick="tcbackgroundcolor(0)">go black</button>
+        <button type="button" onclick="tcbackgroundcolor(1)">go gray</button>
+        <button type="button" onclick="tcbackgroundcolor(2)">go blue</button>
+    </p>
+    </div>
+
+<p class="speechbubble"><span style="font-weight:bold;">Welcome to the test chamber!</span><br>get your test suit <img src="./img/tc/hevsuit.png" title="hev suit" alt="hev suit" style="width:80px;height:80px;"> and get to work! </p>
+<img src="./img/tc/one-shot-one-shot-game.gif" title="niko from oneshot" alt="animated niko from oneshot" style="width:250px;height:250px;">
+<img src="./img/tc/sadscientist.jpg" title="sad scientist" alt="sad scientist" style="width:250px;height:250px;">
+<p title="goodbye!"><del>hello <span title="hello!">goodbye!</span></del></p>
+<p class="speechbubble" style="font-family:impact"> a true comic speech bubble </p>
+
+<h4>my filepacks</h4>
+<ul class="listborder" style="list-style-type:square">
+    <li><a href="./stuff/images.zip">images.zip</a></li>
+    <li><a href="./stuff/jokes.zip">jokes.zip</a></li>
+    <li><a href="./stuff/html-backups.zip">html-backups.zip</a></li>
+</ul>
+<p>hello</p>
+<p lang="en-GB">This paragraph is defined as British English.</p>
+
+    </body>
+</html>
+
